@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3405B90B1F2F2CCE00910108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B90A1F2F2CCE00910108 /* main.m */; };
+		3405B90E1F2F2CCE00910108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B90D1F2F2CCE00910108 /* AppDelegate.m */; };
+		3405B9111F2F2CCE00910108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B9101F2F2CCE00910108 /* ViewController.m */; };
+		3405B9141F2F2CCE00910108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3405B9121F2F2CCE00910108 /* Main.storyboard */; };
+		3405B9161F2F2CCE00910108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3405B9151F2F2CCE00910108 /* Assets.xcassets */; };
+		3405B9191F2F2CCE00910108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3405B9171F2F2CCE00910108 /* LaunchScreen.storyboard */; };
+		3405B9241F2F2CCE00910108 /* RSSortAlgorithmDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B9231F2F2CCE00910108 /* RSSortAlgorithmDemoTests.m */; };
+		3405B92F1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B92E1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests.m */; };
+		3405B93E1F2F2E5C00910108 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B93D1F2F2E5C00910108 /* TableViewController.m */; };
+		3405B9411F2F304800910108 /* NSMutableArray+RSSortAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B9401F2F304800910108 /* NSMutableArray+RSSortAlgorithm.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3405B9201F2F2CCE00910108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3405B8FE1F2F2CCE00910108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3405B9051F2F2CCE00910108;
+			remoteInfo = RSSortAlgorithmDemo;
+		};
+		3405B92B1F2F2CCE00910108 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3405B8FE1F2F2CCE00910108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3405B9051F2F2CCE00910108;
+			remoteInfo = RSSortAlgorithmDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3405B9061F2F2CCE00910108 /* RSSortAlgorithmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSortAlgorithmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3405B90A1F2F2CCE00910108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3405B90C1F2F2CCE00910108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3405B90D1F2F2CCE00910108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3405B90F1F2F2CCE00910108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3405B9101F2F2CCE00910108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3405B9131F2F2CCE00910108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3405B9151F2F2CCE00910108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3405B9181F2F2CCE00910108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3405B91A1F2F2CCE00910108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3405B91F1F2F2CCE00910108 /* RSSortAlgorithmDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSortAlgorithmDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3405B9231F2F2CCE00910108 /* RSSortAlgorithmDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSortAlgorithmDemoTests.m; sourceTree = "<group>"; };
+		3405B9251F2F2CCE00910108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3405B92A1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSortAlgorithmDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3405B92E1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSortAlgorithmDemoUITests.m; sourceTree = "<group>"; };
+		3405B9301F2F2CCE00910108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3405B93C1F2F2E5C00910108 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3405B93D1F2F2E5C00910108 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3405B93F1F2F304800910108 /* NSMutableArray+RSSortAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+RSSortAlgorithm.h"; sourceTree = "<group>"; };
+		3405B9401F2F304800910108 /* NSMutableArray+RSSortAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+RSSortAlgorithm.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3405B9031F2F2CCE00910108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3405B91C1F2F2CCE00910108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3405B9271F2F2CCE00910108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3405B8FD1F2F2CCE00910108 = {
+			isa = PBXGroup;
+			children = (
+				3405B9081F2F2CCE00910108 /* RSSortAlgorithmDemo */,
+				3405B9221F2F2CCE00910108 /* RSSortAlgorithmDemoTests */,
+				3405B92D1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests */,
+				3405B9071F2F2CCE00910108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3405B9071F2F2CCE00910108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3405B9061F2F2CCE00910108 /* RSSortAlgorithmDemo.app */,
+				3405B91F1F2F2CCE00910108 /* RSSortAlgorithmDemoTests.xctest */,
+				3405B92A1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3405B9081F2F2CCE00910108 /* RSSortAlgorithmDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3405B90C1F2F2CCE00910108 /* AppDelegate.h */,
+				3405B90D1F2F2CCE00910108 /* AppDelegate.m */,
+				3405B93C1F2F2E5C00910108 /* TableViewController.h */,
+				3405B93D1F2F2E5C00910108 /* TableViewController.m */,
+				3405B90F1F2F2CCE00910108 /* ViewController.h */,
+				3405B9101F2F2CCE00910108 /* ViewController.m */,
+				3405B93F1F2F304800910108 /* NSMutableArray+RSSortAlgorithm.h */,
+				3405B9401F2F304800910108 /* NSMutableArray+RSSortAlgorithm.m */,
+				3405B9121F2F2CCE00910108 /* Main.storyboard */,
+				3405B9151F2F2CCE00910108 /* Assets.xcassets */,
+				3405B9171F2F2CCE00910108 /* LaunchScreen.storyboard */,
+				3405B91A1F2F2CCE00910108 /* Info.plist */,
+				3405B9091F2F2CCE00910108 /* Supporting Files */,
+			);
+			path = RSSortAlgorithmDemo;
+			sourceTree = "<group>";
+		};
+		3405B9091F2F2CCE00910108 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3405B90A1F2F2CCE00910108 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3405B9221F2F2CCE00910108 /* RSSortAlgorithmDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3405B9231F2F2CCE00910108 /* RSSortAlgorithmDemoTests.m */,
+				3405B9251F2F2CCE00910108 /* Info.plist */,
+			);
+			path = RSSortAlgorithmDemoTests;
+			sourceTree = "<group>";
+		};
+		3405B92D1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3405B92E1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests.m */,
+				3405B9301F2F2CCE00910108 /* Info.plist */,
+			);
+			path = RSSortAlgorithmDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3405B9051F2F2CCE00910108 /* RSSortAlgorithmDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3405B9331F2F2CCE00910108 /* Build configuration list for PBXNativeTarget "RSSortAlgorithmDemo" */;
+			buildPhases = (
+				3405B9021F2F2CCE00910108 /* Sources */,
+				3405B9031F2F2CCE00910108 /* Frameworks */,
+				3405B9041F2F2CCE00910108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSortAlgorithmDemo;
+			productName = RSSortAlgorithmDemo;
+			productReference = 3405B9061F2F2CCE00910108 /* RSSortAlgorithmDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3405B91E1F2F2CCE00910108 /* RSSortAlgorithmDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3405B9361F2F2CCE00910108 /* Build configuration list for PBXNativeTarget "RSSortAlgorithmDemoTests" */;
+			buildPhases = (
+				3405B91B1F2F2CCE00910108 /* Sources */,
+				3405B91C1F2F2CCE00910108 /* Frameworks */,
+				3405B91D1F2F2CCE00910108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3405B9211F2F2CCE00910108 /* PBXTargetDependency */,
+			);
+			name = RSSortAlgorithmDemoTests;
+			productName = RSSortAlgorithmDemoTests;
+			productReference = 3405B91F1F2F2CCE00910108 /* RSSortAlgorithmDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3405B9291F2F2CCE00910108 /* RSSortAlgorithmDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3405B9391F2F2CCE00910108 /* Build configuration list for PBXNativeTarget "RSSortAlgorithmDemoUITests" */;
+			buildPhases = (
+				3405B9261F2F2CCE00910108 /* Sources */,
+				3405B9271F2F2CCE00910108 /* Frameworks */,
+				3405B9281F2F2CCE00910108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3405B92C1F2F2CCE00910108 /* PBXTargetDependency */,
+			);
+			name = RSSortAlgorithmDemoUITests;
+			productName = RSSortAlgorithmDemoUITests;
+			productReference = 3405B92A1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3405B8FE1F2F2CCE00910108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					3405B9051F2F2CCE00910108 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					3405B91E1F2F2CCE00910108 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3405B9051F2F2CCE00910108;
+					};
+					3405B9291F2F2CCE00910108 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3405B9051F2F2CCE00910108;
+					};
+				};
+			};
+			buildConfigurationList = 3405B9011F2F2CCE00910108 /* Build configuration list for PBXProject "RSSortAlgorithmDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3405B8FD1F2F2CCE00910108;
+			productRefGroup = 3405B9071F2F2CCE00910108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3405B9051F2F2CCE00910108 /* RSSortAlgorithmDemo */,
+				3405B91E1F2F2CCE00910108 /* RSSortAlgorithmDemoTests */,
+				3405B9291F2F2CCE00910108 /* RSSortAlgorithmDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3405B9041F2F2CCE00910108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3405B9191F2F2CCE00910108 /* LaunchScreen.storyboard in Resources */,
+				3405B9161F2F2CCE00910108 /* Assets.xcassets in Resources */,
+				3405B9141F2F2CCE00910108 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3405B91D1F2F2CCE00910108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3405B9281F2F2CCE00910108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3405B9021F2F2CCE00910108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3405B9111F2F2CCE00910108 /* ViewController.m in Sources */,
+				3405B9411F2F304800910108 /* NSMutableArray+RSSortAlgorithm.m in Sources */,
+				3405B90E1F2F2CCE00910108 /* AppDelegate.m in Sources */,
+				3405B90B1F2F2CCE00910108 /* main.m in Sources */,
+				3405B93E1F2F2E5C00910108 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3405B91B1F2F2CCE00910108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3405B9241F2F2CCE00910108 /* RSSortAlgorithmDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3405B9261F2F2CCE00910108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3405B92F1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3405B9211F2F2CCE00910108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3405B9051F2F2CCE00910108 /* RSSortAlgorithmDemo */;
+			targetProxy = 3405B9201F2F2CCE00910108 /* PBXContainerItemProxy */;
+		};
+		3405B92C1F2F2CCE00910108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3405B9051F2F2CCE00910108 /* RSSortAlgorithmDemo */;
+			targetProxy = 3405B92B1F2F2CCE00910108 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3405B9121F2F2CCE00910108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3405B9131F2F2CCE00910108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3405B9171F2F2CCE00910108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3405B9181F2F2CCE00910108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3405B9311F2F2CCE00910108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3405B9321F2F2CCE00910108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3405B9341F2F2CCE00910108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSSortAlgorithmDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSSortAlgorithmDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3405B9351F2F2CCE00910108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSSortAlgorithmDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSSortAlgorithmDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3405B9371F2F2CCE00910108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSSortAlgorithmDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSSortAlgorithmDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSortAlgorithmDemo.app/RSSortAlgorithmDemo";
+			};
+			name = Debug;
+		};
+		3405B9381F2F2CCE00910108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSSortAlgorithmDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSSortAlgorithmDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSSortAlgorithmDemo.app/RSSortAlgorithmDemo";
+			};
+			name = Release;
+		};
+		3405B93A1F2F2CCE00910108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSSortAlgorithmDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSSortAlgorithmDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSSortAlgorithmDemo;
+			};
+			name = Debug;
+		};
+		3405B93B1F2F2CCE00910108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSSortAlgorithmDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSSortAlgorithmDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSSortAlgorithmDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3405B9011F2F2CCE00910108 /* Build configuration list for PBXProject "RSSortAlgorithmDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3405B9311F2F2CCE00910108 /* Debug */,
+				3405B9321F2F2CCE00910108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3405B9331F2F2CCE00910108 /* Build configuration list for PBXNativeTarget "RSSortAlgorithmDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3405B9341F2F2CCE00910108 /* Debug */,
+				3405B9351F2F2CCE00910108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3405B9361F2F2CCE00910108 /* Build configuration list for PBXNativeTarget "RSSortAlgorithmDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3405B9371F2F2CCE00910108 /* Debug */,
+				3405B9381F2F2CCE00910108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3405B9391F2F2CCE00910108 /* Build configuration list for PBXNativeTarget "RSSortAlgorithmDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3405B93A1F2F2CCE00910108 /* Debug */,
+				3405B93B1F2F2CCE00910108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3405B8FE1F2F2CCE00910108 /* Project object */;
+}
