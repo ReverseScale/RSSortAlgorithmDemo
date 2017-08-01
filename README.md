@@ -15,25 +15,10 @@ iOS 程序猿也是要搞搞算法的，这里列举了5种你可能用到、用
 
 
 ## Advantage 框架的优势
-* 1.文件少，代码简洁
-* 2.不依赖任何其他第三方库
-* 3.同时支持本地图片/Gif及网络图片/Gif
-* 4.自带图片下载与缓存
-* 5.具备较高自定义性
+* 1.展示性良好，动态模拟排序过程
+* 2.高度封装，一句调用排序方法
+* 3.算法设计合理，教科书式
 
-## Installation 安装
-### 1.手动安装:
-`下载Demo后,将功能文件夹拖入到项目中, 导入头文件后开始使用。`
-### 2.CocoaPods安装:
-修改“Podfile”文件
-```
-pod 'AutoAlignButtonTools',:git => 'https://github.com/ReverseScale/AutoAlignButtonToolsCocoapodsDemo.git'
-```
-控制台执行 Pods 安装命令 （ 简化安装：pod install --no-repo-update ）
-```
-pod install
-```
-> 如果 pod search 发现不是最新版本，在终端执行pod setup命令更新本地spec镜像缓存，重新搜索就OK了
 
 ## Requirements 要求
 * iOS 7+
@@ -41,13 +26,82 @@ pod install
 
 
 ## Usage 使用方法
-### 第一步 引入头文件
+### 选择排序实现
 ```
-#import "OrderDic.h"
+- (void)rs_selectionSortUsingComparator:(RSSortComparator)comparator didExchange:(RSSortExchangeCallback)exchangeCallback {
+    if (self.count == 0) {
+        return;
+    }
+    for (NSInteger i = 0; i < self.count - 1; i ++) {
+        for (NSInteger j = i + 1; j < self.count; j ++) {
+            if (comparator(self[i], self[j]) == NSOrderedDescending) {
+                [self rs_exchangeWithIndexA:i indexB:j didExchange:exchangeCallback];
+            }
+        }
+    }
+}
 ```
-### 第二步 简单调用
+### 冒泡排序实现
 ```
-[OrderDic order:dic]
+- (void)rs_bubbleSortUsingComparator:(RSSortComparator)comparator didExchange:(RSSortExchangeCallback)exchangeCallback {
+    if (self.count == 0) {
+        return;
+    }
+    for (NSInteger i = self.count - 1; i > 0; i --) {
+        for (NSInteger j = 0; j < i; j ++) {
+            if (comparator(self[j], self[j + 1]) == NSOrderedDescending) {
+                [self rs_exchangeWithIndexA:j indexB:j + 1 didExchange:exchangeCallback];
+            }
+        }
+    }
+}
+```
+### 插入排序实现
+```
+#pragma mark - 插入排序
+- (void)rs_insertionSortUsingComparator:(RSSortComparator)comparator didExchange:(RSSortExchangeCallback)exchangeCallback {
+    for (NSInteger i = 1; i < self.count; i ++) {
+        for (NSInteger j = i; j > 0 && comparator(self[j], self[j - 1]) == NSOrderedAscending; j --) {
+            [self rs_exchangeWithIndexA:j indexB:j - 1 didExchange:exchangeCallback];
+        }
+    }
+}
+```
+### 快速排序实现
+```
+- (void)rs_quickSortUsingComparator:(RSSortComparator)comparator didExchange:(RSSortExchangeCallback)exchangeCallback {
+    if (self.count == 0) {
+        return;
+    }
+    [self rs_quickSortWithLowIndex:0 highIndex:self.count - 1 usingComparator:comparator didExchange:exchangeCallback];
+}
+```
+### 堆排序实现
+```
+- (void)rs_heapSortUsingComparator:(RSSortComparator)comparator didExchange:(RSSortExchangeCallback)exchangeCallback {
+    // 排序过程中不使用第0位
+    [self insertObject:[NSNull null] atIndex:0];
+    
+    // 构造大顶堆
+    // 遍历所有非终结点，把以它们为根结点的子树调整成大顶堆
+    // 最后一个非终结点位置在本队列长度的一半处
+    for (NSInteger index = self.count / 2; index > 0; index --) {
+        // 根结点下沉到合适位置
+        [self sinkIndex:index bottomIndex:self.count - 1 usingComparator:comparator didExchange:exchangeCallback];
+    }
+    
+    // 完全排序
+    // 从整棵二叉树开始，逐渐剪枝
+    for (NSInteger index = self.count - 1; index > 1; index --) {
+        // 每次把根结点放在列尾，下一次循环时将会剪掉
+        [self rs_exchangeWithIndexA:1 indexB:index didExchange:exchangeCallback];
+        // 下沉根结点，重新调整为大顶堆
+        [self sinkIndex:1 bottomIndex:index - 1 usingComparator:comparator didExchange:exchangeCallback];
+    }
+    
+    // 排序完成后删除占位元素
+    [self removeObjectAtIndex:0];
+}
 ```
 
 使用简单、效率高效、进程安全~~~如果你有更好的建议,希望不吝赐教!
