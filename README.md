@@ -10,7 +10,7 @@ iOS 程序猿也是要搞搞算法的，这里列举了5种你可能用到、用
 
 | 名称 |1.列表页 |2.选择排序页 |3.冒泡排序页 |4.插入排序页 |5.快速排序页 |6.堆排序页 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/80827278.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/88059359.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/60153806.jpg) |![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/94568013.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/91402760.jpg) |![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/96664830.jpg) |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/80827278.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/94568013.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/88059359.jpg) |![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/60153806.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/91402760.jpg) |![](http://og1yl0w9z.bkt.clouddn.com/17-8-1/96664830.jpg) |
 | 描述 | 通过 storyboard 搭建基本框架 | 选择排序展示 | 冒泡排序展示 | 插入排序展示 | 快速排序展示 | 堆排序展示 |
 
 
