@@ -3,7 +3,7 @@ iOS 程序猿也是要搞搞算法的，这里列举了5种你可能用到、用
 
 ![](https://img.shields.io/badge/platform-iOS-red.svg) 
 ![](https://img.shields.io/badge/language-Objective--C-orange.svg) 
-![](https://img.shields.io/badge/download-1.7MBK-brightgreen.svg)
+![](https://img.shields.io/badge/download-1.7MB-brightgreen.svg)
 ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 之前又看到过一篇文章《搞 iOS 学算法有意义吗？》，讨论iOS开发人员需不需要研究算法，知识这种东西无论你研究与否，它就在那。
