@@ -17,6 +17,7 @@
 		3405B92F1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B92E1F2F2CCE00910108 /* RSSortAlgorithmDemoUITests.m */; };
 		3405B93E1F2F2E5C00910108 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B93D1F2F2E5C00910108 /* TableViewController.m */; };
 		3405B9411F2F304800910108 /* NSMutableArray+RSSortAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 3405B9401F2F304800910108 /* NSMutableArray+RSSortAlgorithm.m */; };
+		349BF9441F316C1400592149 /* DDBinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 349BF9431F316C1400592149 /* DDBinaryTreeNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		3405B93D1F2F2E5C00910108 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		3405B93F1F2F304800910108 /* NSMutableArray+RSSortAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+RSSortAlgorithm.h"; sourceTree = "<group>"; };
 		3405B9401F2F304800910108 /* NSMutableArray+RSSortAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+RSSortAlgorithm.m"; sourceTree = "<group>"; };
+		349BF9421F316C1400592149 /* DDBinaryTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBinaryTreeNode.h; sourceTree = "<group>"; };
+		349BF9431F316C1400592149 /* DDBinaryTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBinaryTreeNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				3405B93F1F2F304800910108 /* NSMutableArray+RSSortAlgorithm.h */,
 				3405B9401F2F304800910108 /* NSMutableArray+RSSortAlgorithm.m */,
 				3405B9121F2F2CCE00910108 /* Main.storyboard */,
+				349BF9421F316C1400592149 /* DDBinaryTreeNode.h */,
+				349BF9431F316C1400592149 /* DDBinaryTreeNode.m */,
 				3405B9151F2F2CCE00910108 /* Assets.xcassets */,
 				3405B9171F2F2CCE00910108 /* LaunchScreen.storyboard */,
 				3405B91A1F2F2CCE00910108 /* Info.plist */,
@@ -284,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349BF9441F316C1400592149 /* DDBinaryTreeNode.m in Sources */,
 				3405B9111F2F2CCE00910108 /* ViewController.m in Sources */,
 				3405B9411F2F304800910108 /* NSMutableArray+RSSortAlgorithm.m in Sources */,
 				3405B90E1F2F2CCE00910108 /* AppDelegate.m in Sources */,
@@ -524,6 +530,7 @@
 				3405B9351F2F2CCE00910108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3405B9361F2F2CCE00910108 /* Build configuration list for PBXNativeTarget "RSSortAlgorithmDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +539,7 @@
 				3405B9381F2F2CCE00910108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3405B9391F2F2CCE00910108 /* Build configuration list for PBXNativeTarget "RSSortAlgorithmDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +548,7 @@
 				3405B93B1F2F2CCE00910108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
