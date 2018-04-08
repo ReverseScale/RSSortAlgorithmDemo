@@ -38,9 +38,9 @@ static const NSInteger kBarCount = 100;
     self.title = [self chooseTitleWithType:self.sortType];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"排序" style:UIBarButtonItemStylePlain target:self action:@selector(onOffAction)];
     
-    self.segmentControl.frame = CGRectMake(15, 64 + 10, CGRectGetWidth(self.view.bounds) - 30, 30);
+    self.segmentControl.frame = CGRectMake(15, 64 + 30, CGRectGetWidth(self.view.bounds) - 30, 30);
     self.timeLabel.frame = CGRectMake(CGRectGetWidth(self.view.bounds) * 0.5 - 50,
-                                      CGRectGetHeight(self.view.bounds) * 0.8, 120, 40);
+                                      CGRectGetHeight(self.view.bounds) * 0.8 + 30, 120, 40);
     
     [self onReset];
     
@@ -101,7 +101,7 @@ static const NSInteger kBarCount = 100;
         // 若需要制造高概率重复数据请打开此行，令数值为10的整数倍(或修改为其它倍数)
         //        barHeight = roundf(barHeight / 10) * 10;
         [self.numberArray addObject:@(barHeight)];
-        bar.frame = CGRectMake(barOrginX + idx * (barMargin + barWidth), barBottom - barHeight, barWidth, barHeight);
+        bar.frame = CGRectMake(barOrginX + idx * (barMargin + barWidth), barBottom - barHeight + 30, barWidth, barHeight);
     }];
     NSLog(@"重置成功!");
     [self printBarArray];
